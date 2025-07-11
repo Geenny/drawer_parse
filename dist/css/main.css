@@ -5,7 +5,7 @@ body {
 }
 
 canvas {
-    position: absolute;
+    /* position: absolute; */
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -13,7 +13,7 @@ canvas {
 }
 
 .upperInfoClass {
-    position: absolute;
+    /* position: absolute; */
     top: 2px;
     left: 4px;
     color: white;
@@ -25,9 +25,10 @@ canvas {
 }
 
 .applicationClass {
-    position: absolute;
-    width: 100%;
+    /* position: absolute;
+    width: 100%; */
     height: 100%;
+    margin: 10px;
 }
 .applicationHidden {
     visibility: hidden;
@@ -55,4 +56,23 @@ canvas {
 
 .connectionErrorText {
     color: rgb(189, 69, 69);
+}
+
+.description {
+    font-family: monospace;
+    font-size: 12px;
+}
+.jsonInput {
+    width: 100%;
+    height: 15vh;
+    background: antiquewhite;
+}
+.jsonOutput {
+    width: 100%;
+    height: 25vh;
+    background: antiquewhite;
+}
+.buttonToClipboard {
+    width: 10em;
+    height: 3em;
 }

@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: "#000000";
+}
+
+canvas {
+    /* position: absolute; */
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.upperInfoClass {
+    /* position: absolute; */
+    top: 2px;
+    left: 4px;
+    color: white;
+    font-family: "Tahoma";
+    font-size: 12px;
+    font-weight: 200;
+    z-index: 2;
+    /* visibility: hidden; */
+}
+
+.applicationClass {
+    /* position: absolute;
+    width: 100%; */
+    height: 100%;
+    margin: 10px;
+}
+.applicationHidden {
+    visibility: hidden;
+}
+.applicationVisible {
+    visibility: visible;
+}
+
+.backView {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.loadingText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #999;
+    margin: 1em 0em;
+}
+
+.connectionErrorText {
+    color: rgb(189, 69, 69);
+}
+
+.description {
+    font-family: monospace;
+    font-size: 12px;
+}
+.jsonInput {
+    width: 100%;
+    height: 15vh;
+    background: antiquewhite;
+}
+.jsonOutput {
+    width: 100%;
+    height: 25vh;
+    background: antiquewhite;
+}
+.buttonToClipboard {
+    width: 10em;
+    height: 3em;
+}
